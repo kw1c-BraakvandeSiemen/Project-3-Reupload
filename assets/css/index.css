@@ -1,0 +1,167 @@
+/*
+
+  Auteur: Siemen van de Braak, Thijs Kivit
+  Aanmaakdatum: 08-04-2022
+
+  Omschrijving: css index pagina
+
+*/
+
+/* breedte body */
+body
+{
+    width: 100%;
+    background-color: #66B6DF;
+}
+
+/* breedte afbeelding */
+#background
+{
+    width: 100%;
+}
+
+/* positionering */
+#info > div
+{
+    float: left;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    width: 60%;
+    background-color: #0085CA;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+/* font meegeven */
+#info > div p
+{
+    font-weight: normal;
+    font-family: Arial;
+}
+
+/* font en kleur */
+h1, h3, h4, a
+{
+    color: white;
+    font-family: Arial;
+    color: white;
+}
+
+/* positionering */
+h1
+{
+    display: block;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+/* font en kleur aanpassen */
+p
+{
+    color: white;
+    font-weight: lighter;
+}
+
+/* achtergrond kleur wit maken */
+#info > #opleidingen
+{
+    background-color: white;
+}
+/* font en kleur aanpassen */
+#info > #opleidingen h3, h4
+{
+    color: #1E93D0;
+    font-weight: bolder;
+    font-family: Arial;
+}
+/* font en kleur aanpassen */
+#info > #opleidingen a
+{
+    color: #EF2B2D;
+    font-size: 14.4px;
+    font-weight: bolder;
+    font-family: Sintony;
+}
+/* font en kleur aanpassen */
+#info > #opleidingen p
+{
+    color: black;
+    font-weight: lighter;
+    font-family: Arial;
+}
+
+/* positionering aside height voor footer */
+aside
+{
+    position: relative;
+    right: 0;
+    top:0;
+    height: 2000px;
+}
+
+/* positionering aside */
+aside > div
+{
+    width: 25%;
+    display: inline-block;
+    background-color: #0085CA;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* styling letter kleur en font links */
+aside > div a
+{
+    color: white;
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+/* positionering en kleur geven aan brochure knop */
+#brochure
+{
+    background-color: red;
+    padding: 10px;
+    position: relative;
+    top: 0px;
+}
+
+/* font en positionering  */
+aside > div p
+{
+    margin-top: 5px;
+    font-family: Arial;
+}
+aside > div h3
+{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+/* achtergrond kleur vragen sectie */
+#vragen
+{
+    background-color: red;
+}
+/* underline toevoegen aan links */
+#vragen > a
+{
+    text-decoration: underline;
+}
+/* kleur veranderen op hover */
+#vragen > a:hover
+{
+    color: black;
+}
+
+/* query voor mobiel portrait */
+@media only screen and (max-width: 768px) {
+    aside {
+        display: none;
+    }
+
+    #info>div {
+        float: none;
+    }
+}

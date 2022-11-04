@@ -1,0 +1,394 @@
+/*
+
+  Auteur: Siemen van de Braak, Gigi
+  Aanmaakdatum: 13-04-2022
+
+  Omschrijving: result
+
+*/
+
+/* achtergrond kleur */
+body
+{
+  background-color: #66b6df;
+}
+
+/* positionering */
+.container
+{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* positionering */
+.titleContainer
+{
+  margin-bottom: 5rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+/* tekst groote en kleur */
+.title
+{
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #ffffff;
+}
+
+/* mediaquery */
+@media (min-width: 640px) 
+{
+  /* tekst groote */
+  .title 
+  {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+/* tekst groote en kleur */
+.titleText
+{
+  width: 100%;
+  line-height: 1.625;
+  color: #f1f5f9;
+}
+
+/* mediaquery */
+@media (min-width: 1024px)
+{
+  /* tekst breedte */
+  .titleText
+  {
+    width: 50%;
+  }
+}
+
+/* positionering */
+.answersContainer
+{
+  margin: -1rem;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 0.5rem;
+}
+
+/* achtergrond kleur */
+.red
+{
+  background-color: #ffb3b3;
+}
+/* achtergrond kleur */
+.green
+{
+  background-color: #bbf7d0;
+}
+/* achtergrond kleur */
+.orange
+{
+  background-color: #ffb27c;
+}
+/* breedte */
+.answerContainer
+{
+  padding: 1rem;
+  width: 100%;
+
+}
+
+/* mediaquery */
+@media (min-width: 768px)
+{
+  /* breedte */
+  .answerContainer
+  {
+    width: 50%;
+  }
+}
+/* mediaquery */
+@media (min-width: 1280px)
+{
+  /* breedte */
+  .answerContainer
+  {
+    width: 25%;
+  }
+}
+
+/* positionering en kleur */
+.answerContainerBlue
+{
+  min-height: 100%;
+  flex-grow: 1;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  border-color: rgba(229, 231, 235, 0.7);
+  background-color: #0085ca;
+  padding: 1.5rem;
+}
+
+/* icoontjes positionering */
+.icons
+{
+  margin-bottom: 1rem;
+  display: inline-flex;
+  height: 2.5rem;
+  width: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+}
+
+/* chekmark kleur en achtergrond kleur */
+.badgedCheckmark
+{
+  background-color: #bbf7d0;
+  color: #16a34a;
+}
+
+/* chekmark kleur en achtergrond kleur */
+.checkmark
+{
+  background-color: #dcfce7;
+  color: #22c55e;
+}
+/* kleur en achtergrond kleur */
+.scale
+{
+  background-color: #ffedd5;
+  color: #f97316;
+}
+/* kleur en achtergrond kleur */
+.x
+{
+  background-color: #fee2e2;
+  color: #ef4444;
+}
+
+/* breedte en hoogte voor svg */
+.svg
+{
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+/* positionering en kleur */
+.question
+{
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #ffffff;
+}
+
+/* positionering en kleur */
+.answer
+{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  line-height: 1.625;
+  color: #f1f5f9;
+}
+
+/* positoinering en achtergrond kleur */
+.adviceContainter
+{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  background-color: #ffffff;
+}
+
+@media (min-width: 640px)
+{
+  .adviceContainer
+  {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1024px)
+{
+  .adviceContainer
+  {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+/* positionering */
+.advicesContainer
+{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1024px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 768px)
+{
+  .advicesContainer
+  {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* positionering */
+.titleContainer
+{
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px)
+{
+  .titleContainer
+  {
+    margin-bottom: 3rem;
+  }
+}
+
+/* positionering en tekst kleur */
+.adviceTitle
+{
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #ffffff;
+}
+
+@media (min-width: 768px)
+{
+  .adviceTitle
+  {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px)
+{
+  .adviceTitle
+  {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+/* positionering en tekst kleur */
+.advise
+{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 768px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (min-width: 768px)
+{
+  .advise
+  {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+/* positie en kleur voor de stats balk */
+.statsContainer
+{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #0085ca;
+  padding: 1.5rem;
+}
+
+/* positie en kleur voor de score balk */
+.score
+{
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: grid;
+  gap: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #0085ca;
+  padding: 1.5rem;
+}
+
+@media (min-width: 768px)
+{
+  .statsContainer
+  {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+}
+
+/* positionering */
+.statContainer
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* tekst grootte en kleur */
+.stats
+{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+@media (min-width: 640px)
+{
+  .stats
+  {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 768px)
+{
+  .stats
+  {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+.statsDescription
+{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #ffffff;
+}
+
+@media (min-width: 640px)
+{
+  .statsDescription
+  {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+/* kleur links */
+a
+{
+  color: #ffffff;
+}

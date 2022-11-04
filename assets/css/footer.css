@@ -1,0 +1,31 @@
+/*
+
+  Auteur: Siemen van de Braak, Gigi
+  Aanmaakdatum: 07-04-2022
+
+  Omschrijving: footer
+
+*/
+
+/* kleur hoogte en ervoor zorgen dat niets overlapt */
+footer
+{
+    background-color: #0085ca;
+    height: 6.25rem;
+    overflow: hidden;
+}
+
+/* hoogte kleur en custom image voor rode/witte lijn */
+#roodWitLijn
+{
+    height: 0.6rem;
+    background: url('../images/lijn.png');
+    background-color: #ffffff;
+}
+
+/* padding en kleur */
+#footerText
+{
+    padding: 1rem;
+    color: #ffffff;
+}
